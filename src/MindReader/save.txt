@@ -1,0 +1,5 @@
+4
+heads tails tails heads 1 0
+heads heads tails tails 1 0
+tails heads heads tails 0 1
+tails tails heads heads 0 1

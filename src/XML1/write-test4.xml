@@ -1,0 +1,24 @@
+<html>
+
+	<head>
+		<title>Amazing</title>
+	</head>
+	<body>
+		<h1>This
+		thing
+		can
+		parse plain old
+		HTML.  Pretty nifty.
+		</h1>
+		<br></br>
+		<hr></hr>
+		<br></br>
+		<font face="courier">
+
+				It should even be able to handle it if we change the text.
+
+		</font>
+	</body>
+
+
+</html>

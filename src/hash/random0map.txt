@@ -1,0 +1,45 @@
+get many
+remove dogs
+put dogs this
+get no
+remove this
+remove you
+remove goodbye
+get you
+remove many
+remove think
+get many
+remove text
+get yes
+remove goodbye
+put dogs can
+put word yes
+remove dogs
+put dogs goodbye
+remove dogs
+remove can
+remove no
+put hello can
+get this
+remove text
+get fly
+remove you
+get fly
+get yes
+put goodbye text
+put you many
+remove you
+get this
+get yes
+put fly dogs
+put goodbye a
+put fly you
+remove text
+put word many
+put many a
+put yes fly
+get text
+remove fly
+get dogs
+get think
+put test hello

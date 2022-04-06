@@ -1,0 +1,5 @@
+just use this command prompt and this folder location:
+C:\Users\lehilds\workspace\xml1\src\cs235\xml
+
+then you use this command:
+java -cp ../.. cs235/xml/TestDriver

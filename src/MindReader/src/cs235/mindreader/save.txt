@@ -1,0 +1,3 @@
+2
+tails heads tails heads 0 2
+tails heads tails heads 0 2

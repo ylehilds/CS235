@@ -1,0 +1,24 @@
+
+
+
+
+<function type="static" >
+		<name>table-driven-agent</name>
+		<argument>percept</argument>
+		<returns>an action</returns>
+		<variables>
+			<variable      name="percepts">
+				<description>a sequence, initially empty</description>
+			</variable>
+			<variable name="table">
+
+					<description>a table of actions, indexed by percept sequences, initially fully specified</description>
+
+					</variable>
+		</variables>
+		<body>
+			<statement type="action">append percept to the end of the percepts</statement>
+			<statement type="assignment">action gets lookup(percepts, table)</statement>
+			<statement teyp="return">return action</statement>
+		</body>
+</function>

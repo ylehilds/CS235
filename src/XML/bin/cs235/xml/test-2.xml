@@ -1,0 +1,36 @@
+
+
+<class department="Computer Science" number="235" section="1">
+	<instructor>
+		<faculty id="1000" phone="(801)422-1111">
+			<name>Joe Smart</name>
+			<address>1111 TMCB</address>
+			<title>Professor</title>
+			<department>Computer Science</department>
+		</faculty>
+	</instructor>
+	<students>
+<student id="111111111" gpa='3.30' phone="(801)375-11111">
+			<name>Susan Green</name>
+			<address>100 West 111 North Provo, UT 84604</address>
+			<major>Computer Engineering</major>
+</student>
+<student id="222222222" gpa='3.73' phone="(801)375-2222">
+			<name>Greg Jones</name>
+			<address>200 West 222 North Provo, UT 84604</address>
+			<major>Computer Science</major>
+</student>
+<student id="333333333" gpa='2.90' phone="(801)375-3333">
+			<name>Randy Cox</name>
+			<address>300 West 333 North Provo, UT 84604</address>
+			<major>Computer Science</major>
+</student>
+	</students>
+	<ta>
+<student id="123456789" gpa='3.56' phone="(801)375-1234">
+			<name>Bill White</name>
+			<address>300 West 721 North Provo, UT 84604</address>
+			<major>Computer Science</major>
+</student>
+	</ta>
+</class>

@@ -1,0 +1,17 @@
+16
+tails heads tails heads 28 81
+heads heads tails heads 12 25
+heads heads tails tails 38 32
+heads heads heads heads 89 38
+tails tails tails heads 29 36
+heads tails heads heads 30 13
+tails tails tails tails 44 73
+tails heads heads heads 38 20
+heads tails heads tails 71 34
+tails heads tails tails 25 35
+heads tails tails heads 36 28
+heads tails tails tails 21 45
+tails heads heads tails 20 29
+tails tails heads heads 28 37
+tails tails heads tails 35 27
+heads heads heads tails 18 40

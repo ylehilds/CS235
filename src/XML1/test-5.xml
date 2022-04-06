@@ -1,0 +1,38 @@
+
+
+You should ignore this
+
+<uglyxmldocument
+		>
+		<comment>
+								<1
+								>
+											  This one is going to be a little
+											  ugly, so we'll try to keep it short.
+											  </1
+											  >
+				<2	>
+				Who
+				in
+				the
+				world
+				would
+				write
+				XML
+				like
+				this
+				anyway?
+				</2
+					>
+		<3
+		>
+			Whatever you do, don't 		write your code like this.
+				</3	>
+</comment>
+
+
+</uglyxmldocument>
+
+
+
+You should ignore this too

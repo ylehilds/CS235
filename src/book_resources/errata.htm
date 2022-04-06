@@ -1,0 +1,120 @@
+<HTML>
+<BODY>
+
+<TITLE>
+Error Information for Data Structures and Problem Solving Using Java (2/e)
+</TITLE>
+
+<H1>
+Errata
+</H1>
+
+
+Here is the
+errata list for <I>Data Structures
+and Problem Solving Using Java (3/e)</I>, by Mark Allen Weiss.
+Some of the errors affect the source code; updates
+to the code are done automatically.
+
+
+<PRE>
+</PRE>
+<A HREF="bugs.html">Click here to report a new error</A>.
+
+<H3>Higher printings</h3>
+<PRE>
+  DATE   PAGE  WHO  PROBLEM
+--------  ---  ---  ----------------------------------------------------------
+03/15/06   39   KA  Change DIFFERENT_NUMBERS to DIFF_NUMBERS
+11/16/07   62   CA  In Exercise 2.14, change "dividend" to "divisor"
+06/01/07  152   CA  In definition of super object, "overloading" should be "overriding".
+06/01/07  186   SA  In the bound for the number of iterations and comparisons
+                       for the revised binary search, replace the floor
+                       function with the ceiling function.
+03/15/06  209   VH  Line 2 and 3: clarify that ordered/unordered
+                    refers to sroted order, not positional (indexed) order
+03/15/06  210   EG  Line -8, Change Section 4.8 to Section 4.1.11.
+05/07/08  217   RS  In Figure 6.14, line 72, remove ; at the end of the line
+09/27/07  353   RH  The third paragraph refers to two loops in Figure 9.6.
+                    But only the second loop is in the code, so remove the
+                    sentence that refers to the first loop.
+03/15/06  410   PL  Line 24 in Figure 11.17 should be
+                       long theResult = postfixStack.pop( );
+06/01/07  461   EB  The import directive on line 1, Figure 13.6 should be
+                       for class weiss.util.Random to support Poisson distributions.
+09/26/06  484   OA  Delete line 45, which only works if main is in class Graph.
+05/07/08  484  SSC  Change line 9 to "source destination cost"
+03/15/06  537   EG  Figure 15.18, line 11 is missing a ) before the ;
+06/01/07  541       In Figure 16.2, line 26, change Object to AnyType
+03/15/06  568   EG  Line -12, change LinkedList constructor to
+                    LinkedListIterator constructor
+06/21/06  585  EEO  getNode throws an exception if idx > size(), rather than
+                    idx > size() - 1, but since it is called directly by
+                    get, set, and remove( int idx ), all those routines fail
+                    to throw an exception when the index is size(). The
+                    simplest fix is as follows: change getNode to accept
+                    two additional parameters (lower and upper), to be
+                    used in the test at line 11. Provide a second getNode
+                    with only one parameter, that passes 0 and size() -1.
+                    This will fix get, set, and remove. But it breaks add,
+                    and the LinkedListIterator constructor because size() is
+                    a valid index for those. In those routines
+                    invoke the three-parameter getNode, with 0, and size()
+                    as the lower and upper bounds. This fix is in the
+                    revised online code.
+
+03/15/06  589   EG  Figure 17.30b, lines 59 and 60 are not needed.
+06/01/07  597       Figure 18.2, change T_4 to T_k
+06/21/06  701   MAW Line 5, change "child" to "item"
+04/04/06  732   EA  In Figre 7.32, there is an inconsistency that increments
+                    occupied, even if the newly inserted item replaces an
+                    item marked as deleted. To fix, move line 14 to before line
+                    12 and test if array[ currentPos ] is null.
+03/15/06  870   EG  show() is deprecated. setVisible(true) is preferred.
+03/15/06  880   EG  show() is deprecated. setVisible(true) is preferred.
+</PRE>
+
+<H3>First printing</H3>
+<PRE>
+  DATE   PAGE  WHO  PROBLEM
+--------  ---  ---  ----------------------------------------------------------
+09/07/05  136  MAW  In the code fragment in the instanceof test segment,
+                    on the third line, change list2 to list.
+02/20/05  526  MAW  Line 72, should use Iterator&lt;AnyType&gt;
+02/20/05  530  MAW  Line 16, should use Collection&lt; extends AnyType&gt;
+02/20/05  581  MAW  Fig 17.22 Line 12, should use Collection&lt; extends AnyType&gt;
+02/11/05  691  MAW  Line 39, should use Map.Entry&lt;KeyType,ValueType&gt;
+</PRE>
+
+<H3>Credits</H3>
+<PRE>
+EA   Ebutalib Agayev
+CA   Claude Anderson
+KA   Kris Anderson
+SA   Sven Anderson
+OA   Onur Akan
+EB   Elizabeth Barham
+SSC  Sudarshan S. Chawathe
+EG   Eric Gosset
+RH   Rodney Hoffman
+PL   Patricia Lasserre
+VH   Vagelis Hristidis
+RS   Randy Scovil
+</PRE>
+
+
+<H3>Printing History</H3>
+
+First Printing: February 2005
+
+<BR>
+You can see which printing you have by looking at
+the bottom of the copyright page for a sequence of numbers.
+If you see
+<PRE>
+1 2 3 4 5 6 7 8 9 10
+</PRE>
+you have the first printing.
+
+</BODY>
+</HTML>
